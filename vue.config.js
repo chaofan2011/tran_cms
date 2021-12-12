@@ -7,6 +7,7 @@ module.exports = {
     proxy: {
       '/api': {
         target: 'http://152.136.185.210:4000/',
+        //  target: 'http://123.56.237.16:8005/',//阿里云
         pathRewrite: {
           '^/api': ''
         },
